@@ -16,8 +16,8 @@ public class MinimapObject : MonoBehaviour {
     [System.Serializable]
     public class Config {
 
-        public Sprite m_icon;
-        public Color m_color;
+        public Sprite icon;
+        public Color color = Color.white;
 
     }
 
